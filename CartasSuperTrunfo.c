@@ -6,14 +6,14 @@ int main() {
     Nome da Cidade, População, Área (em km²), PIB, Número de Pontos Turísticos.*/
 
     // Carta 1
-    char estado1[20], codigoe1[20], cidade1[20];  
+    char estado1, codigoe1[20], cidade1[20];  
     int habitantes1, pontos1; 
     float area1, PIB1, densidade1, perCapita1;
     densidade1 = habitantes1/area1; // Cálculo da densidade demográfica
     perCapita1 = PIB1/habitantes1; // Cálculo do PIB per capita
 
     // Carta 2
-    char estado2[20], codigoe2[20], cidade2[20];  
+    char estado2, codigoe2[20], cidade2[20];  
     int habitantes2, pontos2; 
     float area2, PIB2, densidade2, perCapita2;
     densidade2 = habitantes2/area2; // Cálculo da densidade demográfica
